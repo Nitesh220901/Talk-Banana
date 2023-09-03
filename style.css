@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#f2c94c;
+}
+
+/* output syling */
+#output{
+    width: 40%;
+    height: 11vh;
+    border: 2px solid black;
+    font-size: 1.25rem;
+
+}
+
+
+
+/* navbar style */
+.navbar{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2em ;
+    font-family: cursive;
+}
+
+
+
+/* text area style  */
+.text-area-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+    padding: 2em 0;
+    font-family: cursive;
+}
+.txt-input{
+    border: 2px solid black;
+    display: block;
+    width: 40%;
+    font-size: 1.25rem;
+
+}
+.btn-translate{
+    padding: 1em .75em;
+    background-color: var(--primary-color);
+    font-family: cursive;
+
+    font-size: 1.25rem;
+    margin: .5em 0;
+}
+
+
+
+/* about container style  */
+.about-container{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+.about-content{
+    font-family: cursive;
+
+    width: 40%;
+    text-align: center;
+    line-height: 1.2em;
+    padding: 1.75em ;
+}
+.about-para{
+    margin-top: 1em;
+}
